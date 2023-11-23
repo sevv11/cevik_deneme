@@ -11,4 +11,4 @@ test_that("Eğer mevcut ise veri setini silme", {
     file.remove("MapsThatChangedOurWorld_StoryMap_Data.csv")
   }
   expect_equal("MapsThatChangedOurWorld_StoryMap_Data.csv" %in% list.files(), FALSE)
-})
+})akkalz
